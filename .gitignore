@@ -1,0 +1,68 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio - Build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# --- CÁC PHẦN BỔ SUNG QUAN TRỌNG ---
+
+# 1. Android (Cấu hình máy & Bảo mật)
+android/local.properties
+android/key.properties
+**/android/app/google-services.json
+
+# 2. iOS (File sinh ra khi build - Rất quan trọng để tránh xung đột)
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# 3. Database (Dữ liệu SQLite local - KHÔNG UP LÊN GIT)
+*.db
+*.db-shm
+*.db-wal
+
+# 4. macOS (Nếu có build mac)
+macos/Flutter/GeneratedPluginRegistrant.swift
